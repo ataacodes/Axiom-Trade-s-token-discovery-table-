@@ -13,7 +13,6 @@ import { SortableHeader } from "@/components/molecules/sortable-header";
 import { TokenRow } from "./token-row";
 import { useSort } from "@/hooks/use-sort";
 import type { Token } from "@/lib/types";
-import { formatCompactNumber } from "@/lib/utils";
 
 interface TokenTableProps {
   tokens: Token[];
